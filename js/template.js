@@ -4,7 +4,7 @@ TrelloPowerUp.initialize({
   'board-buttons': function(t, options){
     return [{
     icon: './images/icon-white.svg',
-    text: 'Timer button',
+    text: 'Timer3 button',
     callback: function(t){
       // do something when the button is clicked
     }}];
@@ -27,7 +27,7 @@ TrelloPowerUp.initialize({
       return {
         title: 'Detail Badge', // for detail badges only
         text: 'Dynamic ' + (Math.random() * 100).toFixed(0).toString(),
-        icon: icon, // for card front badges only
+        icon: './images/icon-white.svg', // for card front badges only
         color: badgeColor,
         refresh: 10
       }

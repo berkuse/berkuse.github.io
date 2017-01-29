@@ -33,7 +33,15 @@ TrelloPowerUp.initialize({
       }
     }
   }
-}
+},
+'card-from-url': function(t, options) {
+  // return a name, and optionally a description
+  // based on options.url
+  return {
+    name: 'Suitable name based on options.url',
+    desc: 'Suitable description based on options.url'
+  };
+},
 
 
 });

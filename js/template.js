@@ -9,6 +9,14 @@ TrelloPowerUp.initialize({
       // do something when the button is clicked
     }}];
   },
+    'board-buttons': function(t, options){
+    return [{
+    icon: './images/icon-white.svg',
+    text: 'My Button2',
+    callback: function(t){
+      // do something when the button is clicked
+    }}];
+  },
 //   'show-settings': function(t, options){
 //     return t.popup({
 //       title: 'Settings',

@@ -6,7 +6,8 @@
   },
   "author": "Berkuse",
   "capabilities": [
-    "board-buttons"
+    "board-buttons",
+    "card-buttons"
   ],
   "connectors": {
     "iframe": {

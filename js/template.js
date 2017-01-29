@@ -28,7 +28,7 @@ TrelloPowerUp.initialize({
         title: 'Detail Badge', // for detail badges only
         text: 'Dynamic ' + (Math.random() * 100).toFixed(0).toString(),
         icon: './images/icon-white.svg', // for card front badges only
-        color: badgeColor,
+        color: 'red',
         refresh: 10
       }
     }
